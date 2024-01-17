@@ -1,8 +1,8 @@
 Package: interleave
 Type: Package
 Title: Converts Tabular Data to Interleaved Vectors
-Version: 0.1.1
-Date: 2021-03-18
+Version: 0.1.2
+Date: 2024-01-18
 Authors@R: c(
         person("David", "Cooley", email = "david.cooley.au@gmail.com", role = c("aut", "cre")), 
         person("Mapbox", role = "cph", comment = "author of header library earcut.hpp")
@@ -13,16 +13,15 @@ Description: Converts matrices and lists of matrices into a single vector by int
     dimension attribute, but is designed to operate on matrices in nested list structures.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.1
-LinkingTo: geometries, Rcpp
+RoxygenNote: 7.2.3
+Depends: R (>= 3.0.2)
+LinkingTo: geometries (>= 0.2.4), Rcpp
 Imports: Rcpp
 Suggests: covr, sfheaders, tinytest
-SystemRequirements: C++11
 NeedsCompilation: yes
-Packaged: 2021-03-18 00:44:56 UTC; david
+Packaged: 2024-01-17 23:38:07 UTC; dave
 Author: David Cooley [aut, cre],
   Mapbox [cph] (author of header library earcut.hpp)
 Maintainer: David Cooley <david.cooley.au@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-03-18 05:40:02 UTC
+Date/Publication: 2024-01-17 23:50:02 UTC
